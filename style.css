@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3498db;
+}
+
+main {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.row {
+    display: flex;
+    align-items: center; /* Vertically arrange */
+    justify-content: center; /* Horizanotally arrange*/
+    width: 1000px;
+    margin: 10px;
+    font-size: 32px;
+    color: white;
+
+}
+
+#search {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 0 5px gray;
+}
